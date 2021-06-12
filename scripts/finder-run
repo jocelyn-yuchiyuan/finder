@@ -5,4 +5,4 @@ import finder
 from finder.lib import search_toilet
 
 if __name__ == '__main__':
-    search_toilet('tokyo')
+    print(search_toilet('tokyo'))
