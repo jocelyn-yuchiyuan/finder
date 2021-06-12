@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Import from finder
 import finder
-from finder.finder import search_toilet
+from finder.lib import search_toilet
 
 if __name__ == '__main__':
     search_toilet('tokyo')
