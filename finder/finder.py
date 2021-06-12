@@ -12,7 +12,7 @@ def search_toilet(query):
         return street
     return "no toilets found"
 
-#if __name__ == "__main__":
-    #query = "tokyo"
-    #street = search_toilet(query)
-    #print(street)
+if __name__ == "__main__":
+    query = "tokyo"
+    street = search_toilet(query)
+    print(f"you can find a nice toilet here: {street}")
