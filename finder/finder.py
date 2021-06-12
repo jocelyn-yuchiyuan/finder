@@ -9,10 +9,10 @@ def search_toilet(query):
     response = requests.get(url).json()
     if  len(response) > 0 :
         street = response[0]["name"]
-        return street
+        return f"you can find a nice toilet here arounf tokyo: {street}"
     return "no toilets found"
 
-if __name__ == "__main__":
-    query = "tokyo"
-    street = search_toilet(query)
-    print(f"you can find a nice toilet here: {street}")
+#if __name__ == "__main__":
+    #query = "tokyo"
+    #street = search_toilet(query)
+    #print(f"you can find a nice toilet here: {street}")

@@ -1,2 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Import from finder
+import moo
+from moo.lib import try_me
+
+if __name__ == '__main__':
+    search_toilet('tokyo')
